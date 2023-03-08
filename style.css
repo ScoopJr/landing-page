@@ -5,14 +5,12 @@ body {
   flex-direction: column;
 }
 
-/*-------------------------------HEADER SECTION-------------------------------*/
+/*----------------------------------HEADER SECTION----------------------------------*/
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
-
-  /* added flex */
+  /*box-shadow: 0 0 8px rgba(0,0,0,.1);*/
   display: flex;
   justify-content: space-between;
   padding: 8px;
@@ -45,13 +43,138 @@ ul {
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 16px;
+    gap: 32px;
 }
 
 /*-------------------------------SUB-HEADER SECTION-------------------------------*/
 
-/*-------------------------------CLASSES SECTION-------------------------------*/
+.sub-header {
+  background: white;
+  /*width: 480px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);*/
+  /* - There is equal space on either side of the icon (the gaps between the icon and the edge of the card, 
+    and the icon and the text, are the same).
+  - There is padding around the edge of the modal.*/
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+}
 
-/*-------------------------------QUOTE SECTION-------------------------------*/
+/*
+.img {
+  color: royalblue;
+  font-size: 26px;
+  font-weight: 700;
+  background: lavender;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;*/
+  /*### A hint: Depending on how you approach this one, you might need to revisit the `flex-shrink` property 
+  to keep a flex item from getting smashed.*/
+  /*flex-shrink: 0;
+}*/
 
-/*-------------------------------FOOTER SECTION-------------------------------*/
+
+.sub-header-text {
+  margin-bottom: 16px;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+}
+
+/*---------------------------------CLASSES SECTION---------------------------------*/
+
+.classes {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 32px; /*- There is 32px between the title and the 'items.'*/
+  text-align: center; /*- The item text is centered.*/
+
+  /* Added flex 
+  - The title is centered on the page. */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+/* Added main container with flex 
+- All items are centered on the page (horizontally, not vertically).
+- There is 52px between each item.*/
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+/* Added containers with max width */
+.sub-container {
+  max-width: 200px;
+}
+
+/*---------------------------------QUOTE SECTION---------------------------------*/
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  /*flex-wrap: row;*/
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+}
+
+.quote-text {
+  font-style: italic;
+}
+
+.quote-author { /*THIS CLASS DOES NOT SEEM TO BE WORKING*/
+  font-weight: bolder;
+  align-items: flex-end;
+}
+
+/*---------------------------------SIGN-UP SECTION---------------------------------*/
+
+.sign-up {
+  background: white;
+  /*width: 480px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);*/
+  /* - There is equal space on either side of the icon (the gaps between the icon and the edge of the card, 
+    and the icon and the text, are the same).
+  - There is padding around the edge of the modal.*/
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+}
+
+.sign-up-text {
+  margin-bottom: 16px;
+}
+
+/*---------------------------------FOOTER SECTION---------------------------------*/
+
+.footer {
+  height: 72px;
+  background: #eee;
+  color: darkmagenta;
+  display: flex; /**/
+  justify-content: center;  /*- The footer text is centered horizontally and vertically.*/
+  align-items: center;  /*- The footer text is centered horizontally and vertically.*/
+}
