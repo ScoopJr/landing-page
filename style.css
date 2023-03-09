@@ -8,32 +8,32 @@ body {
 /*----------------------------------HEADER SECTION----------------------------------*/
 
 .header {
-  background: white;
-  border-bottom: 1px solid #ddd;
-  /*box-shadow: 0 0 8px rgba(0,0,0,.1);*/
+  background: #1F2937;
+  /*border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);*/
   display: flex;
   justify-content: space-between;
-  padding: 8px;
+  padding: 16px;
 }
 
 /* added containers with flex */
 .logo, .links {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 48px;
 }
 
-.logo {
-  color: rebeccapurple;
-  font-size: 32px;
-  font-weight: 900;
-  font-style: italic;
+.logo, .sign-up-text {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: bolder;
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
-  color: rebeccapurple;
+  color: #E5E7EB;
+  font-size: 18px;
 }
 
 ul {
@@ -49,7 +49,7 @@ ul {
 /*-------------------------------SUB-HEADER SECTION-------------------------------*/
 
 .sub-header {
-  background: white;
+  background: #1F2937;
   /*width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);*/
@@ -80,24 +80,37 @@ ul {
   /*flex-shrink: 0;
 }*/
 
-
 .sub-header-text {
-  margin-bottom: 16px;
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: bolder;
 }
 
-button {
+.sub-text {
+  color: #E5E7EB;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.sign-up-button {
+  border: 1px solid #1F2937;
   padding: 8px 16px;
   border-radius: 8px;
-  background: royalblue;
-  border: 1px solid royalblue;
-  color: white;
+  background: #3882F6;
+  color: #E5E7EB;
+}
+
+.gymnastics-image {
+  width: 350px;
+  height: auto;
 }
 
 /*---------------------------------CLASSES SECTION---------------------------------*/
 
 .classes {
   font-size: 36px;
-  font-weight: 900;
+  font-weight: bolder;
+  color: #1F2937;
   margin-bottom: 32px; /*- There is 32px between the title and the 'items.'*/
   text-align: center; /*- The item text is centered.*/
 
@@ -108,7 +121,7 @@ button {
   justify-content: center;
 }
 
-img {
+.square-image {
   width: 200px;
   height: 200px;
 }
@@ -135,22 +148,25 @@ img {
   /*flex-wrap: row;*/
   justify-content: center;
   align-items: center;
-  gap: 52px;
+  /*gap: 52px;*/
+  background: #E5E7EB;
 }
 
 .quote-text {
   font-style: italic;
+  font-size: 36px;
 }
 
-.quote-author { /*THIS CLASS DOES NOT SEEM TO BE WORKING*/
+.quote-author { 
   font-weight: bolder;
-  align-items: flex-end;
+  /*text-align: end;*/
+  /*align-items: flex-end;*/
 }
 
 /*---------------------------------SIGN-UP SECTION---------------------------------*/
 
 .sign-up {
-  background: white;
+  background: #3882F6;
   /*width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);*/
@@ -164,16 +180,23 @@ img {
   padding: 16px;
 }
 
-.sign-up-text {
-  margin-bottom: 16px;
+/* Text properties defined in Sub-Header section*/
+
+.button-border {
+  border: 1px solid #E5E7EB;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #3882F6;
+  color: #E5E7EB;
 }
 
 /*---------------------------------FOOTER SECTION---------------------------------*/
 
 .footer {
   height: 72px;
-  background: #eee;
-  color: darkmagenta;
+  background: #1F2937;
+  color: #E5E7EB;
+  font-size: 18px;
   display: flex; /**/
   justify-content: center;  /*- The footer text is centered horizontally and vertically.*/
   align-items: center;  /*- The footer text is centered horizontally and vertically.*/
