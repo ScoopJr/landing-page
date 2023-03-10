@@ -56,6 +56,10 @@ ul {
   /* - There is equal space on either side of the icon (the gaps between the icon and the edge of the card, 
     and the icon and the text, are the same).
   - There is padding around the edge of the modal.*/
+}
+
+.sub-header-container {
+  margin: 80px;
   display: flex; 
   justify-content: center;
   align-items: center;
@@ -111,7 +115,7 @@ ul {
   font-size: 36px;
   font-weight: bolder;
   color: #1F2937;
-  margin-bottom: 32px; /*- There is 32px between the title and the 'items.'*/
+  margin: 40px;
   text-align: center; /*- The item text is centered.*/
 
   /* Added flex 
@@ -124,6 +128,7 @@ ul {
 .square-image {
   width: 200px;
   height: 200px;
+  border-radius: 25px;
 }
 
 /* Added main container with flex 
@@ -133,6 +138,8 @@ ul {
   display: flex;
   justify-content: center;
   gap: 52px;
+  margin: 0px, 40px;
+  margin-bottom: 80px;
 }
 
 /* Added containers with max width */
@@ -155,7 +162,7 @@ ul {
 .quote-text {
   font-style: italic;
   font-size: 36px;
-  margin: 150px;
+  margin: 100px;
 }
 
 .quote-author { 
@@ -180,9 +187,22 @@ ul {
   align-items: center;
   gap: 16px;
   padding: 16px;
+  margin-top: 60px;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-bottom: 60px;
+  border-radius: 25px;
 }
 
-/* Text properties defined in Sub-Header section*/
+.sign-up-text {
+  margin-top: 30px;
+  /* Text properties defined in Sub-Header section*/
+}
+
+.sub-text {
+  margin-bottom: 30px;
+  /* Text properties defined in Sub-Header section*/
+}
 
 .button-border {
   border: 1px solid #E5E7EB;
@@ -190,6 +210,7 @@ ul {
   border-radius: 8px;
   background: #3882F6;
   color: #E5E7EB;
+  margin: 30px;
 }
 
 /*---------------------------------FOOTER SECTION---------------------------------*/
