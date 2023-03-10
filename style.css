@@ -155,12 +155,14 @@ ul {
 .quote-text {
   font-style: italic;
   font-size: 36px;
+  margin: 150px;
 }
 
 .quote-author { 
   font-weight: bolder;
   /*text-align: end;*/
   /*align-items: flex-end;*/
+  font-size: 24px;
 }
 
 /*---------------------------------SIGN-UP SECTION---------------------------------*/
