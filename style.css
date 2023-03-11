@@ -8,7 +8,6 @@ body {
 /*----------------------------------HEADER SECTION----------------------------------*/
 
 .header {
-  font-family: Hero;
   background: #1F2937;
   display: flex;
   justify-content: space-between;
@@ -45,7 +44,6 @@ ul {
 
 .sub-header {
   background: #1F2937;
-  font-family: Hero;
 }
 
 .sub-header-container {
@@ -183,7 +181,6 @@ ul {
 .footer {
   height: 72px;
   color: #E5E7EB;
-  font-family: Hero;
   font-size: 18px;
   background: #1F2937;
   display: flex;
