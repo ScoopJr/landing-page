@@ -1,13 +1,14 @@
 body {
   font-family: Roboto;
-  min-height: 100vh;
   display: flex; 
   flex-direction: column;
+  min-height: 100vh;
 }
 
 /*----------------------------------HEADER SECTION----------------------------------*/
 
 .header {
+  font-family: Hero;
   background: #1F2937;
   display: flex;
   justify-content: space-between;
@@ -27,9 +28,9 @@ body {
 }
 
 a {
-  text-decoration: none;
   color: #E5E7EB;
   font-size: 18px;
+  text-decoration: none;
 }
 
 ul {
@@ -47,12 +48,12 @@ ul {
 }
 
 .sub-header-container {
-  margin: 80px;
   display: flex; 
   justify-content: center;
   align-items: center;
   gap: 16px;
   padding: 16px;
+  margin: 80px;
 }
 
 .sub-header-text {
@@ -69,11 +70,11 @@ ul {
 }
 
 .sign-up-button {
-  border: 1px solid #1F2937;
-  padding: 8px 16px;
-  border-radius: 8px;
-  background: #3882F6;
   color: #E5E7EB;
+  background: #3882F6;
+  padding: 8px 16px;
+  border: 1px solid #1F2937;
+  border-radius: 8px;
 }
 
 .gymnastics-image {
@@ -84,14 +85,14 @@ ul {
 /*---------------------------------CLASSES SECTION---------------------------------*/
 
 .classes {
+  color: #1F2937;
   font-size: 36px;
   font-weight: bolder;
-  color: #1F2937;
-  margin: 40px;
-  text-align: center; 
   display: flex;
+  text-align: center; 
   align-items: center;
   justify-content: center;
+  margin: 40px;
 }
 
 .square-image {
@@ -116,11 +117,11 @@ ul {
 /*---------------------------------QUOTE SECTION---------------------------------*/
 
 .quote {
+  background: #E5E7EB;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #E5E7EB;
 }
 
 .quote-container {
@@ -135,10 +136,10 @@ ul {
 }
 
 .quote-author { 
-  display: flex;
-  font-weight: bolder;
-  justify-content: flex-end;
   font-size: 24px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: flex-end;
 }
 
 /*---------------------------------SIGN-UP SECTION---------------------------------*/
@@ -149,12 +150,12 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 16px;
+  border-radius: 25px;
   padding: 16px;
   margin-top: 60px;
   margin-left: 180px;
   margin-right: 180px;
   margin-bottom: 60px;
-  border-radius: 25px;
 }
 
 .sign-up-text {
@@ -168,11 +169,11 @@ ul {
 }
 
 .button-border {
-  border: 1px solid #E5E7EB;
-  padding: 8px 16px;
-  border-radius: 8px;
-  background: #3882F6;
   color: #E5E7EB;
+  background: #3882F6;
+  border: 1px solid #E5E7EB;
+  border-radius: 8px;
+  padding: 8px 16px;
   margin: 30px;
 }
 
@@ -180,10 +181,11 @@ ul {
 
 .footer {
   height: 72px;
-  background: #1F2937;
   color: #E5E7EB;
+  font-family: Hero;
   font-size: 18px;
-  display: flex; /**/
+  background: #1F2937;
+  display: flex;
   justify-content: center;  
   align-items: center;  
 }
