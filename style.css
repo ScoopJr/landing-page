@@ -99,6 +99,13 @@ ul {
   height: 200px;
   border-radius: 25px;
   margin-bottom: 10px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.square-image:hover {
+  width: 210px;
+  height: 210px;
 }
 
 .container {
